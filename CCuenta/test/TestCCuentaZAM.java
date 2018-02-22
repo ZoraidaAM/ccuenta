@@ -40,6 +40,6 @@ public class TestCCuentaZAM {
 //6.- Una prueba de retirar más del saldo de la cuenta.
 	@Test(expected=Exception.class)
 	public void testRetirarMasZAM() throws Exception{
-		miCuenta.ingresar(-3500);
+		miCuenta.retirar(5000);
 		}
 }
